@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "wallet",
-    "slug": "wallet",
+    "name": "LUV Wallet",
+    "slug": "luv-wallet",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -30,6 +30,7 @@
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "description": ""
   }
 }

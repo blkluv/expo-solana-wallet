@@ -6,7 +6,7 @@ import { accountFromSeed } from "../utils";
 
 const LAMPORTS_PER_SOL = solanaWeb3.LAMPORTS_PER_SOL;
 
-const SPL_TOKEN = "FyUYPbYiEFjC5LG4oYqdBfiA6PwgC78kbVyWAoYkwMTC";
+const SPL_TOKEN = "2msazg9qEhfM9VdaFor7MMG2DhCYTQvL7t4CDnYLS3CGz";
 
 const createConnection = () => {
   return new solanaWeb3.Connection(solanaWeb3.clusterApiUrl("devnet"));
@@ -85,7 +85,7 @@ const transaction = async (from, to, amount) => {
 };
 
 const SPL_ASSOCIATED_TOKEN_ACCOUNT_PROGRAM_ID: PublicKey = new PublicKey(
-  "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"
+  "6LHdS8WGBdLk8J6gqRsCxyyCwysPBt4fQyCBGa88wo2T"
 );
 
 async function findAssociatedTokenAddress(
